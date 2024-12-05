@@ -1,0 +1,270 @@
+@media screen and (max-width: 1200px) {
+    body {
+     
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+
+    body {
+      .roadmap-num1 {
+        
+        margin-left: 293px;
+     
+    }
+    .line-imges img{
+      display: none;
+    }
+    .raodmap-ani img {
+     
+      left: 293px;
+      top: -14px;
+    }
+    .header{
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    body {
+     
+    }
+    .header{
+        display: none;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .main-box2{
+        display: none;
+    }
+    .succes-img1 img{
+        width: 100%;
+    }
+    .success-img2 img{
+        width: 200px;
+        position: relative;
+        left: 139px;
+        
+    }
+    .img-box {
+        position: relative;
+  
+        padding-top: 30px;
+  }
+  .top-box2 p{
+    padding-left: 10px;
+    padding-top: 30px;
+  }
+  .main-box h5{
+    font-size: 16px;
+  }
+  .main-box{
+    font-size: 40px;
+
+  }
+  .main-box h6 {
+    font-size: 14px;
+    line-height: 22px;
+
+  }
+  .successbox-top h6{
+    font-size: 16px;
+
+
+  } 
+  .successbox-top h2{
+    font-size: 40px;
+    line-height: normal;
+  }
+  .successbox-top p{
+    font-size: 14px;
+    line-height: 24px;
+   
+      
+  }
+
+  .input-feild {
+ padding: 0%;
+  }
+  .input-feild i{
+    font-size: 15px;
+    padding-left: 9px;
+
+  }
+  .input-feild input{
+    font-size: 16px;
+    padding-bottom: 18px
+  }
+  .input-feild button{
+       font-size: 16px;
+        padding: 8px;
+        top: 14px;
+
+  }
+ 
+  .success-second {
+    padding-left: 10px;
+  }
+  .head-services h2{
+    font-size: 30px;
+    line-height: normal;
+  }
+  .head-services p {
+    font-size: 14px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+.service-box3 {
+    flex-wrap: wrap;
+   
+  }
+  .roadmap-head h1{
+    font-size: 30px;
+    line-height: 40px;
+
+  }
+  .roadmap-head p{
+    font-size: 16px;
+  }
+  .line-imges{
+    display: none;
+  }
+  .raodmap-ani img {
+   
+    left: 141px;
+    top: -16px;
+}
+.footer-items {
+   
+    flex-wrap: wrap;
+    padding-left: 20px;
+    text-align: start;
+}
+.item-grandprent{
+  width: 100%;
+  height: auto;
+margin: 0px;
+
+}
+.item-parent{
+    
+  border-radius: 16px;
+  background-color: #e6f8e8;
+  margin: 20px 2px;
+}
+.third-img img{
+  height: 82px ;
+
+}
+.third-img p{
+  font-size: 16px;
+  margin: 10px ;
+}
+.left-box h2 {
+        font-size: 30px;
+        line-height: 40px;
+}
+.left-box h6{
+  font-size: 16px;
+  line-height: 40px;
+}
+.left-box  p{
+  font-size: 16px;
+  line-height: 24px;
+
+}
+.stories-head h2{
+  font-size: 30px;
+        line-height: 40px;
+        padding-top: 10px;
+
+}
+.stories-head h6{
+  font-size: 16px;
+  line-height: 40px;
+}
+.stories-head p{
+  font-size: 16px;
+  line-height: 24px;
+}
+.get-text h2{
+    font-size: 30px;
+    line-height: 40px;
+    padding-top: 10px;
+
+
+}
+.footer-items h1{
+  font-size: 30px;
+    line-height: 40px;
+    padding-top: 10px;
+
+}
+.footer-items p{
+  font-size: 16px;
+  line-height: 24px;
+
+}
+.left-box h6{
+  font-size: 16px;
+  line-height: 40px;
+}
+.left-box p{
+    font-size: 16px;
+    line-height: 24px;
+  }
+.getstarted-img{
+  display: none;
+}
+.get-started{
+  padding: 1px 10px 20px 10px;
+}
+.subscribe input {
+  padding: 15px 19px;
+  margin-bottom: 20px;
+  }
+  .footer-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .nav-item {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(48, 48, 48, 0.54);
+    padding-bottom: 10px;
+    width: 100%;
+    
+    
+}
+.dropdown-menu{
+  background-color: black;
+  position: relative  !important;
+  inset: 0px auto auto 0px;
+  margin-left: 20px;
+  transform: unset !important;
+
+}
+.nav-link:focus, .nav-link:hover {
+color: yellow;
+}
+.btn-secondary:hover {
+
+background-color: #000;
+border-color: #000 !important;
+}
+.offcanvas-body{
+  position: relative;
+}
+.btn {
+
+  line-height: 0.5;
+}
+.canva{
+  padding-top: 14px;
+}
+  }
+
+  

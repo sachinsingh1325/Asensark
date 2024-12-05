@@ -1,0 +1,134 @@
+.offcanvas-body{
+    background-color: black;
+
+}
+.offcanvas-header {
+   background-color: #212529;
+   justify-content: space-between;
+}
+.offcanvas-header .btn-close{
+    background-color: rgba(255, 225, 0, 0.963);
+    border-radius: 50%;
+    color: rgb(247, 252, 252) !important;
+}
+.ulkeitam{
+    padding-left: 0%;
+
+}
+
+.ulkeitam li{
+    list-style: none;
+   
+   
+}
+.ulkeitam a{
+    color: blanchedalmond;
+    font-size: 22px;
+    padding: 10px 2px;
+    
+
+   
+   
+}
+.nav-item i{
+    background-color:#37D284;
+    padding: 8px;
+    margin-top: 4px;
+    position: relative;
+    top: 4px;
+    border-radius: 5px;
+    color: azure;
+
+}
+.btn{
+    margin-left: 100px;
+}
+
+
+
+
+
+.Contact-Info{
+    background-color: black;
+}
+.item-p p{
+    font-weight: 500;
+    line-height: 30px;
+    color: antiquewhite;
+    font-size: 22px;
+    margin: 12px
+}
+.item-info{
+
+}
+.item-info i{
+    color: yellow;
+    padding: 0 10px;
+
+}
+.item-info a{
+    text-decoration: none;
+    color: rgb(199, 182, 182);
+    font-size: 18px;
+    
+}
+.button button{
+    margin-bottom: 15px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 9px 19px;
+    border-radius: 8px;
+    color: white;
+    background-color:#054a28;
+    border: none;
+
+}
+.info-icons{
+    margin-left: 12px;
+    margin-bottom: 17px
+}
+.info-icons i{
+    background:#37D284;
+    padding: 10px !important;
+    color: white;
+    border-radius: 50%;
+}
+#plus{
+    position: absolute;
+    right: 18px;
+}
+.btn-father {
+    margin-left: 0;
+    height: 66px;
+    
+    padding-top: 0;
+    padding-left: 0px;
+    height: 55px;
+    background-color: black;
+    border: none;
+}
+.dropdown-toggle::after {
+    display: none;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+}
+.nav-item i {
+  
+    padding: 11px;
+    margin-top: 0px;
+    position: relative;
+    top: -10px;
+}
+.Contact-Info {
+    padding-bottom: 36px;
+    padding-left: 15px
+}
+.dropdown-menu li{
+    border-bottom: 2px solid rgb(50, 48, 48);
+    width: 137%;
+    padding: 10px 20px;
+}
+
+

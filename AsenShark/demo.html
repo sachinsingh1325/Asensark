@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgenShark</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    text-align: left;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section.logo {
+    grid-column: span 2;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-section.subscribe form {
+    display: flex;
+    align-items: center;
+}
+
+.footer-section.subscribe input[type="email"] {
+    flex: 1;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.footer-section.subscribe button {
+    padding: 5px 10px;
+}
+
+.footer-bottom {
+    grid-column: span 5;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    font-size: 0.9em;
+    color: #555;
+}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <footer class="footer">
+        <div class="footer-section logo">
+            <img src="logo.png" alt="AgenShark Logo">
+            <p>AgenShark is a multinational agency. We guide startups from concept to market leadership.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Company</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Support</h3>
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Book A Demo</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms Conditions</a></li>
+                <li><a href="#">Cookies</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Social</h3>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Discord</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Telegram</a></li>
+            </ul>
+        </div>
+        <div class="footer-section subscribe">
+            <h3>Subscribe Now</h3>
+            <form action="#">
+                <input type="email" placeholder="Enter email address">
+                <button type="submit">→</button>
+            </form>
+            <p><input type="checkbox"> by signing up, you agree to receive mail</p>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Copyright 2024 AgenShark, Inc.</p>
+            <p>17 York Street London, United Kingdom W1W7AB</p>
+        </div>
+    </footer>
+</body>
+</html>
